@@ -1,0 +1,289 @@
+.guest-dang-nhap {
+    background-color: #d5e4f8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.guest-dang-nhap .overlap-wrapper {
+    background-color: #e3edfa;
+
+    height: 100%;
+    width: 100%;
+}
+
+.guest-dang-nhap .overlap {
+    height: 100%;
+    position: relative;
+}
+
+.guest-dang-nhap .overlap-group {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.guest-dang-nhap .nav-bar {
+    z-index: 10;
+    color: #151d48;
+    height: 10vh;
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 10vh;
+    /* border: 1px solid rgba(0, 0, 0, 0.2); */
+    box-shadow: 0 0 10px rgba(0, 0, 100, 0.3);
+    filter: blur(0.5);
+}
+
+.guest-dang-nhap .content {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    top: 10vh;
+    height: 90vh;
+}
+.guest-dang-nhap .image {
+    position: relative;
+    object-fit: cover;
+    height: 90vh;
+    flex: 1;
+}
+
+.guest-dang-nhap .child {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.guest-dang-nhap .form-wrapper {
+    background-color: #ffffff;
+    border-radius: 20px;
+    height: 555px;
+    left: 737px;
+    position: absolute;
+    top: 284px;
+    width: 647px;
+}
+
+.guest-dang-nhap .form {
+    height: 468px;
+    left: 93px;
+    position: relative;
+    top: 19px;
+    width: 463px;
+}
+
+.guest-dang-nhap .inputs {
+    height: 314px;
+    left: -2px;
+    position: absolute;
+    top: 103px;
+    width: 465px;
+}
+
+.guest-dang-nhap .inputs-password {
+    height: 84px;
+    left: 2px;
+    position: absolute;
+    top: 115px;
+    width: 467px;
+}
+
+.guest-dang-nhap .text-base {
+    color: #18345e;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 143px;
+}
+
+.guest-dang-nhap .shadow {
+    align-items: center;
+    background-color: #f4f2f2;
+    border-radius: 6px;
+    display: flex;
+    height: 52px;
+    justify-content: space-between;
+    left: 2px;
+    overflow: hidden;
+    padding: 12px;
+    position: absolute;
+    top: 32px;
+    width: 463px;
+}
+
+.guest-dang-nhap .text {
+    color: #18345e;
+    font-family: "Spectral-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+    opacity: 0.5;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.guest-dang-nhap .vector {
+    height: 20px;
+    min-width: 25px;
+    position: relative;
+}
+
+.guest-dang-nhap .inputs-email {
+    height: 78px;
+    left: 2px;
+    position: absolute;
+    top: 15px;
+    width: 466px;
+}
+
+.guest-dang-nhap .text-wrapper {
+    color: #18345e;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 174px;
+}
+
+.guest-dang-nhap .div {
+    display: flex;
+    align-items: center;
+    background-color: #f4f2f2;
+    border-radius: 6px;
+    display: flex;
+    height: 52px;
+    justify-content: space-between;
+    left: 0;
+    overflow: hidden;
+    padding: 12px;
+    position: absolute;
+    top: 26px;
+    width: 464px;
+}
+
+.guest-dang-nhap .email-input {
+    display: flex;
+    color: #18345e;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: relative;
+    text-align: left;
+    white-space: nowrap;
+    border: none;
+    width: 80%;
+    height: 100%;
+}
+
+.guest-dang-nhap .submit-btn {
+    height: 51px;
+    left: 2px;
+    position: absolute;
+    top: 250px;
+    width: 462px;
+}
+
+.guest-dang-nhap .text-lg {
+    color: transparent;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 104px;
+    letter-spacing: 0;
+    line-height: 28px;
+    position: absolute;
+    top: 65px;
+    white-space: nowrap;
+}
+
+.guest-dang-nhap .span {
+    color: #312e81cc;
+}
+
+.guest-dang-nhap .text-wrapper-2 {
+    color: #312e8180;
+}
+
+.guest-dang-nhap .text-wrapper-3 {
+    color: #18345e;
+}
+
+.guest-dang-nhap .text-wrapper-4 {
+    color: #22c1dc;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+}
+
+.guest-dang-nhap .div-wrapper {
+    background-color: #f0ab20;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px #0000000f, 0px 1px 3px #0000001a;
+    height: 51px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 462px;
+}
+
+.guest-dang-nhap .text-3 {
+    color: #18345e;
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 12px;
+    width: 462px;
+}
+
+.guest-dang-nhap .texts-sign-up {
+    height: 103px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 367px;
+}
+
+.guest-dang-nhap .text-xl {
+    color: #18345e;
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 48px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 48px;
+    position: absolute;
+    top: 41px;
+    white-space: nowrap;
+}
